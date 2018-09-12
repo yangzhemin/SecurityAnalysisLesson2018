@@ -60,6 +60,30 @@
 	.date {
 		background: #dddd55;
 	}
+	
+	table.calendar {
+		font-family: arial, helvetica;
+		font-size: 10pt;
+		empty-cells: show;
+		border: 1px solid #000000;
+		border-collapse: collapse;
+	}
+	table.calendar tr td {
+		border: 1px solid #aaaaaa;
+	}
+	table.calendar tr {
+		vertical-align: top;
+		height: 6em;
+		background: #eeeeee;
+	}
+	table.calendar thead tr {
+		text-align: center;
+		background: #444444;
+		color: #ffffff;
+		height: auto;
+		font-weight: bold;
+	}
+	
 </style>
 </head>
 
@@ -76,13 +100,13 @@
             <br>
 
 
-	    <table width="100%" cellpadding=0>
+	    <table class="calendar" width="100%" cellpadding=0>
 	    <thead>
 	    <tr>
 		<td width="15%">Date</td>
-		<td width="22%">Assignment 1</td>
+		<td width="22%">Assignment</td>
 		<td width="25%">Presentor</td>
-		<td width="22%">Assignment 2</td>
+		<td width="22%">Assignment</td>
 		<td width="25%">Presentor</td>
 	    </tr>
 	    </thead>		
